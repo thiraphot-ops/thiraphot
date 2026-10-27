@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#f8f9ff;}body{overscroll-behavior:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "secondary-container": "#5bb8fe", "on-tertiary": "#ffffff", "tertiary-fixed-dim": "#68dba9", "surface-container-lowest": "#ffffff", "primary-fixed-dim": "#aec9ed", "on-secondary": "#ffffff", "surface-bright": "#f8f9ff", "on-secondary-container": "#00476e", "on-secondary-fixed-variant": "#004b73", "tertiary-container": "#003321", "inverse-primary": "#aec9ed", "on-tertiary-fixed": "#002114", "secondary-fixed": "#cce5ff", "surface-container-highest": "#d3e4fe", "primary-container": "#0f2d4a", "primary-fixed": "#d2e4ff", "on-surface": "#0b1c30", "on-error-container": "#93000a", "on-primary-fixed-variant": "#2e4867", "surface-container-low": "#eff4ff", "surface-dim": "#cbdbf5", "inverse-surface": "#213145", "error": "#ba1a1a", "on-background": "#0b1c30", "on-error": "#ffffff", "tertiary-fixed": "#85f8c4", "inverse-on-surface": "#eaf1ff", "outline": "#73777e", "secondary-fixed-dim": "#93ccff", "primary": "#00182f", "surface": "#f8f9ff", "tertiary": "#001c10", "surface-tint": "#466080", "on-tertiary-container": "#29a678", "background": "#f8f9ff", "secondary": "#006398", "on-primary": "#ffffff", "error-container": "#ffdad6", "surface-container": "#e5eeff", "on-tertiary-fixed-variant": "#005137", "on-secondary-fixed": "#001d31", "outline-variant": "#c3c6ce", "on-primary-fixed": "#001d36", "surface-container-high": "#dce9ff", "on-primary-container": "#7a95b7", "on-surface-variant": "#43474d", "surface-variant": "#d3e4fe" }, borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, spacing: { "space-sm": "0.5rem", "space-md": "1rem", "space-xl": "2.5rem", "gutter-desktop": "1.5rem", "space-lg": "1.5rem", "margin": "1rem", "margin-desktop": "2rem", "space-xs": "0.25rem", "gutter": "1rem" }, fontFamily: { "label-code-md": ["JetBrains Mono"], "headline-lg": ["Hanken Grotesk"], "body-lg": ["Hanken Grotesk"], "display-lg": ["Hanken Grotesk"], "headline-md": ["Hanken Grotesk"], "label-code-lg": ["JetBrains Mono"], "body-sm": ["Hanken Grotesk"], "caption": ["Hanken Grotesk"], "label-code-sm": ["JetBrains Mono"], "label-ui": ["Hanken Grotesk"], "body-md": ["Hanken Grotesk"], "headline-sm": ["Hanken Grotesk"] }, fontSize: { "label-code-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "500" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "display-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["22px", { "lineHeight": "28px", "fontWeight": "600" }], "label-code-lg": ["15px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "500" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "caption": ["11px", { "lineHeight": "14px", "fontWeight": "500" }], "label-code-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "500" }], "label-ui": ["13px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "24px", "fontWeight": "600" }] } } } }</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(15,45,74,0.04)]"><div class="h-16 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="HIV LabStock Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXqeUq9_2WQFmDlmj0je-xW8cvcNCvgkJYyhsCE0GjKlJpfzTWvZDh4RXnvoDgEVumh2eMdEIXuK55XNbCJj-YPzQb---wLLQRsWkTKS51g_2Z18iQdRJ4sjWgPZa2VmcpkBXR3VeCx2hT3QxFHHmUuv54daWrcXce98Gf6yJW_RbA2NsrhXazXqEWnGW2EdLIIxFqYmqniFy7nW0kF8AF1oHDsAQmrzReGZqRyi9zhqg61Zweo00uxg"/><div class="flex flex-col min-w-0"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight truncate">HIV LabStock</span></div><span class="font-caption text-caption text-on-surface-variant truncate">รพ.ศูนย์ / ศูนย์วิจัยทางคลินิก</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="การแจ้งเตือน" class="relative w-11 h-11 flex items-center justify-center rounded-xl text-on-surface-variant hover:text-primary transition-colors" type="button"><span class="material-symbols-outlined text-[24px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 bg-error rounded-full"></span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-20 bg-surface flex-1"><div class="flex flex-col w-full">
+<div class="px-margin pt-space-md pb-space-lg flex flex-col gap-space-md">
+<!-- Segmented Mode Control -->
+<div class="w-full bg-surface-container-high p-1 rounded-xl flex items-center justify-between shadow-sm">
+<button class="flex-1 py-2.5 px-space-sm rounded-lg flex items-center justify-center gap-space-xs font-label-ui text-label-ui text-on-surface-variant transition-all duration-200" id="tab-checkin" type="button">
+<span class="material-symbols-outlined text-[18px]">move_to_inbox</span>
+<span>รับเข้าคลัง (Check-In)</span>
+</button>
+<button class="flex-1 py-2.5 px-space-sm rounded-lg flex items-center justify-center gap-space-xs font-label-ui text-label-ui bg-primary text-on-primary shadow-sm transition-all duration-200" id="tab-checkout" type="button">
+<span class="material-symbols-outlined text-[18px]">outbox</span>
+<span>เบิกจ่ายออก (Dispense)</span>
+</button>
+</div>
+<!-- Scanner Viewfinder Card -->
+<div class="relative w-full rounded-xl overflow-hidden bg-primary shadow-md flex flex-col items-center justify-center min-h-[260px] p-space-md">
+<!-- Simulated Camera Background Pattern -->
+<div class="absolute inset-0 bg-gradient-to-b from-primary via-primary-container to-primary opacity-95"></div>
+<!-- Ambient Laser Scan Line -->
+<div class="absolute inset-x-8 top-1/4 h-0.5 bg-tertiary-fixed shadow-[0_0_12px_#85f8c4] animate-pulse pointer-events-none"></div>
+<!-- Viewfinder Target HUD -->
+<div class="relative z-10 w-48 h-48 rounded-xl bg-surface-container-lowest/10 backdrop-blur-sm flex items-center justify-center p-3">
+<!-- Corner Reticles -->
+<span class="absolute top-2 left-2 w-4 h-4 rounded-tl-sm bg-tertiary-fixed"></span>
+<span class="absolute top-2 right-2 w-4 h-4 rounded-tr-sm bg-tertiary-fixed"></span>
+<span class="absolute bottom-2 left-2 w-4 h-4 rounded-bl-sm bg-tertiary-fixed"></span>
+<span class="absolute bottom-2 right-2 w-4 h-4 rounded-br-sm bg-tertiary-fixed"></span>
+<!-- QR Code Simulation -->
+<div class="w-36 h-36 bg-surface-container-lowest rounded-lg p-2.5 flex flex-col justify-between items-center shadow-lg relative">
+<div class="w-full flex justify-between">
+<div class="w-7 h-7 bg-primary rounded-sm p-1 flex items-center justify-center"><div class="w-3 h-3 bg-surface-container-lowest"></div></div>
+<div class="w-7 h-7 bg-primary rounded-sm p-1 flex items-center justify-center"><div class="w-3 h-3 bg-surface-container-lowest"></div></div>
+</div>
+<div class="flex items-center gap-1.5 py-1">
+<span class="material-symbols-outlined text-secondary text-[24px]">verified</span>
+<span class="font-label-code-sm text-label-code-sm text-primary tracking-tighter">HIV-AGAB-01</span>
+</div>
+<div class="w-full flex justify-between items-end">
+<div class="w-7 h-7 bg-primary rounded-sm p-1 flex items-center justify-center"><div class="w-3 h-3 bg-surface-container-lowest"></div></div>
+<div class="w-5 h-5 bg-tertiary-container rounded-sm flex items-center justify-center">
+<span class="material-symbols-outlined text-on-tertiary-container text-[14px]">done</span>
+</div>
+</div>
+<!-- Pulsing Success Badge -->
+<div class="absolute -bottom-3 inset-x-2 bg-tertiary-container text-on-tertiary-container py-0.5 rounded-full flex items-center justify-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">qr_code_2</span>
+<span class="font-caption text-caption font-bold">สแกนรหัสสำเร็จ</span>
+</div>
+</div>
+</div>
+<!-- Scanner Floating Controls -->
+<div class="relative z-10 mt-space-md flex items-center gap-space-sm">
+<button class="h-10 px-space-md rounded-full bg-surface-container-lowest/20 backdrop-blur-md text-surface flex items-center gap-space-xs hover:bg-surface-container-lowest/30 transition-colors" id="btn-flash" type="button">
+<span class="material-symbols-outlined text-[18px]">flash_on</span>
+<span class="font-label-ui text-label-ui">เปิดไฟฉาย</span>
+</button>
+<button class="h-10 px-space-md rounded-full bg-surface-container-lowest/20 backdrop-blur-md text-surface flex items-center gap-space-xs hover:bg-surface-container-lowest/30 transition-colors" id="btn-manual" type="button">
+<span class="material-symbols-outlined text-[18px]">keyboard</span>
+<span class="font-label-ui text-label-ui">พิมพ์รหัสเอง</span>
+</button>
+</div>
+</div>
+<!-- Live Scanned Batch Summary Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs mb-1">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-caption text-caption font-bold">
+<span class="material-symbols-outlined text-[13px]">biotech</span>
+              HIV Rapid Assay
+            </span>
+<span class="inline-flex items-center gap-0.5 px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-caption text-caption font-bold">
+<span class="material-symbols-outlined text-[13px]">priority_high</span>
+              FEFO Priority
+            </span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold truncate">Determine HIV-1/2 Ag/Ab Combo</h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant">ชุดตรวจคัดกรองแอนติเจนและแอนติบอดีแบบรวดเร็ว</span>
+</div>
+<div class="w-10 h-10 rounded-xl bg-surface-container-high flex-shrink-0 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">inventory_2</span>
+</div>
+</div>
+<!-- Scanned Batch Metrics Grid -->
+<div class="grid grid-cols-2 gap-space-xs mt-1">
+<div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant">หมายเลขล็อต (Lot No.)</span>
+<span class="font-label-code-md text-label-code-md text-primary font-bold">D7821A</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant">วันหมดอายุ (Expiry)</span>
+<span class="font-label-code-md text-label-code-md text-error font-bold flex items-center gap-1">
+            28 เม.ย. 2025
+            <span class="material-symbols-outlined text-[15px]">event_busy</span>
+</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant">ราคาอ้างอิงพัสดุ</span>
+<span class="font-label-code-md text-label-code-md text-on-surface font-semibold">฿1,500 / กล่อง</span>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex flex-col">
+<span class="font-caption text-caption text-on-surface-variant">คงเหลือในคลังแล็บ</span>
+<span class="font-label-code-md text-label-code-md text-secondary font-bold">45 กล่อง</span>
+</div>
+</div>
+<!-- FEFO Guideline Callout -->
+<div class="bg-surface-container-highest/60 p-space-sm rounded-lg flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px] flex-shrink-0">info</span>
+<p class="font-body-sm text-body-sm text-on-secondary-container leading-tight">
+          แนะนำตามหลัก FEFO: ล็อต <span class="font-label-code-sm text-label-code-sm font-bold">D7821A</span> หมดอายุเร็วที่สุด ควรตัดจ่ายให้คลินิกใช้งานก่อน
+        </p>
+</div>
+</div>
+<!-- Dispense Form -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">assignment_turned_in</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">บันทึกการเบิกจ่าย</h3>
+</div>
+<!-- Destination Department Dropdown -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-ui text-label-ui text-on-surface font-semibold" for="dept-select">หน่วยงานผู้ขอเบิก</label>
+<div class="relative w-full">
+<select class="w-full h-11 px-space-md pr-10 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md appearance-none focus:outline-none focus:bg-surface-container-high transition-colors" id="dept-select">
+<option selected="" value="vct">คลินิกนิรนาม / VCT Clinic (ศูนย์วิจัยทางคลินิก)</option>
+<option value="central_lab">ห้องปฏิบัติการกลาง (Central Clinical Lab)</option>
+<option value="arv_clinic">คลินิกผู้ป่วยนอก ARV (Adult HIV Care)</option>
+<option value="er">แผนกอุบัติเหตุและฉุกเฉิน (ER Triage)</option>
+</select>
+<div class="absolute inset-y-0 right-3 flex items-center pointer-events-none text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Purpose of Usage -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-ui text-label-ui text-on-surface font-semibold" for="purpose-input">วัตถุประสงค์การใช้</label>
+<div class="relative w-full">
+<input class="w-full h-11 px-space-md rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-high transition-colors" id="purpose-input" type="text" value="ตรวจคัดกรองผู้รับบริการกลุ่มเสี่ยงสูงประจำรอบสัปดาห์"/>
+</div>
+</div>
+<!-- Quantity Stepper & Cost Calculation -->
+<div class="bg-surface-container-low rounded-xl p-space-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-ui text-label-ui text-on-surface font-semibold">จำนวนที่ขอเบิก</span>
+<span class="font-caption text-caption text-on-surface-variant">สูงสุดที่เบิกได้: 45 กล่อง</span>
+</div>
+<div class="flex items-center justify-between gap-space-md">
+<!-- Stepper -->
+<div class="flex items-center bg-surface-container-lowest rounded-lg p-1 shadow-sm">
+<button aria-label="ลดจำนวน" class="w-10 h-10 rounded-md bg-surface-container-high flex items-center justify-center text-primary active:scale-95 transition-transform" id="btn-minus" type="button">
+<span class="material-symbols-outlined text-[20px]">remove</span>
+</button>
+<div class="w-16 text-center font-label-code-lg text-label-code-lg text-primary font-bold" id="dispense-qty">10</div>
+<button aria-label="เพิ่มจำนวน" class="w-10 h-10 rounded-md bg-surface-container-high flex items-center justify-center text-primary active:scale-95 transition-transform" id="btn-plus" type="button">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+<!-- Total Calculation -->
+<div class="flex flex-col items-end min-w-0">
+<span class="font-caption text-caption text-on-surface-variant">มูลค่ารวมที่เบิกจ่าย</span>
+<span class="font-label-code-lg text-label-code-lg text-secondary font-bold" id="total-val">฿15,000</span>
+</div>
+</div>
+</div>
+<!-- Officer in Charge Card -->
+<div class="flex items-center gap-space-sm p-space-sm rounded-lg bg-surface-container-low">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">badge</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-caption text-caption text-on-surface-variant">เจ้าหน้าที่ผู้รับผิดชอบทำรายการ</span>
+<span class="font-body-md text-body-md font-semibold text-primary truncate">ทนพญ. นลินี วงศ์สุวรรณ</span>
+<span class="font-caption text-caption text-on-surface-variant">จนท.พัสดุและคลังชีวเคมีแล็บ</span>
+</div>
+</div>
+<!-- Primary Action Buttons -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<button class="w-full h-12 rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-ui text-label-ui flex items-center justify-center gap-space-xs shadow-md active:scale-[0.99] transition-all" id="btn-submit" type="button">
+<span class="material-symbols-outlined text-[20px]">task_alt</span>
+<span>ยืนยันการเบิกจ่ายและตัดสต๊อกทันที</span>
+</button>
+<button class="w-full h-11 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-primary font-label-ui text-label-ui flex items-center justify-center gap-space-xs active:scale-[0.99] transition-all" id="btn-scan-next" type="button">
+<span class="material-symbols-outlined text-[20px]">qr_code_scanner</span>
+<span>สแกนรายการถัดไป</span>
+</button>
+</div>
+<!-- Success Feedback Dialog (Hidden initially) -->
+<div class="hidden p-space-sm rounded-lg bg-tertiary-fixed text-on-tertiary-fixed flex items-center gap-space-xs shadow-sm transition-all duration-300" id="toast-success">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+<span class="font-body-sm text-body-sm font-semibold">ตัดสต๊อกเรียบร้อยแล้ว: คงเหลือในระบบ 35 กล่อง</span>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    let qty = 10;
+    const unitPrice = 1500;
+    const maxQty = 45;
+
+    const qtyDisplay = document.getElementById('dispense-qty');
+    const totalDisplay = document.getElementById('total-val');
+    const btnMinus = document.getElementById('btn-minus');
+    const btnPlus = document.getElementById('btn-plus');
+    const btnSubmit = document.getElementById('btn-submit');
+    const btnScanNext = document.getElementById('btn-scan-next');
+    const toast = document.getElementById('toast-success');
+    const btnFlash = document.getElementById('btn-flash');
+    const tabCheckin = document.getElementById('tab-checkin');
+    const tabCheckout = document.getElementById('tab-checkout');
+
+    function updateCalc() {
+      if (qtyDisplay) qtyDisplay.textContent = qty;
+      if (totalDisplay) {
+        const total = qty * unitPrice;
+        totalDisplay.textContent = '฿' + total.toLocaleString('th-TH');
+      }
+    }
+
+    if (btnMinus) {
+      btnMinus.addEventListener('click', function() {
+        if (qty > 1) {
+          qty--;
+          updateCalc();
+        }
+      });
+    }
+
+    if (btnPlus) {
+      btnPlus.addEventListener('click', function() {
+        if (qty < maxQty) {
+          qty++;
+          updateCalc();
+        }
+      });
+    }
+
+    if (btnFlash) {
+      let isOn = false;
+      btnFlash.addEventListener('click', function() {
+        isOn = !isOn;
+        const icon = btnFlash.querySelector('.material-symbols-outlined');
+        const text = btnFlash.querySelector('span:not(.material-symbols-outlined)');
+        if (isOn) {
+          btnFlash.classList.add('bg-tertiary-fixed', 'text-on-tertiary-fixed');
+          if (icon) icon.textContent = 'flash_off';
+          if (text) text.textContent = 'ปิดไฟฉาย';
+        } else {
+          btnFlash.classList.remove('bg-tertiary-fixed', 'text-on-tertiary-fixed');
+          if (icon) icon.textContent = 'flash_on';
+          if (text) text.textContent = 'เปิดไฟฉาย';
+        }
+      });
+    }
+
+    if (btnSubmit) {
+      btnSubmit.addEventListener('click', function() {
+        if (toast) {
+          toast.classList.remove('hidden');
+          toast.classList.add('flex');
+          btnSubmit.disabled = true;
+          btnSubmit.classList.add('opacity-70');
+          setTimeout(function() {
+            toast.classList.add('hidden');
+            toast.classList.remove('flex');
+            btnSubmit.disabled = false;
+            btnSubmit.classList.remove('opacity-70');
+          }, 3500);
+        }
+      });
+    }
+
+    if (btnScanNext) {
+      btnScanNext.addEventListener('click', function() {
+        qty = 1;
+        updateCalc();
+        if (toast) toast.classList.add('hidden');
+      });
+    }
+
+    if (tabCheckin && tabCheckout) {
+      tabCheckin.addEventListener('click', function() {
+        tabCheckin.className = 'flex-1 py-2.5 px-space-sm rounded-lg flex items-center justify-center gap-space-xs font-label-ui text-label-ui bg-primary text-on-primary shadow-sm transition-all duration-200';
+        tabCheckout.className = 'flex-1 py-2.5 px-space-sm rounded-lg flex items-center justify-center gap-space-xs font-label-ui text-label-ui text-on-surface-variant transition-all duration-200';
+      });
+
+      tabCheckout.addEventListener('click', function() {
+        tabCheckout.className = 'flex-1 py-2.5 px-space-sm rounded-lg flex items-center justify-center gap-space-xs font-label-ui text-label-ui bg-primary text-on-primary shadow-sm transition-all duration-200';
+        tabCheckin.className = 'flex-1 py-2.5 px-space-sm rounded-lg flex items-center justify-center gap-space-xs font-label-ui text-label-ui text-on-surface-variant transition-all duration-200';
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(15,45,74,0.05)]" data-active-classes="text-secondary font-bold"><div class="h-16 px-space-xs grid grid-cols-4 items-center"><a class="flex flex-col items-center justify-center min-h-[44px] py-1 text-on-surface-variant transition-colors group" data-path="dashboard" href="#"><span class="material-symbols-outlined text-[22px] mb-0.5 group-hover:text-secondary">analytics</span><span class="font-caption text-caption tracking-tight">แดชบอร์ด</span></a><a class="flex flex-col items-center justify-center min-h-[44px] py-1 text-on-surface-variant transition-colors group" data-path="reagent-inventory" href="#"><span class="material-symbols-outlined text-[22px] mb-0.5 group-hover:text-secondary">science</span><span class="font-caption text-caption tracking-tight">คลังน้ำยา</span></a><a aria-current="page" class="flex flex-col items-center justify-center min-h-[44px] py-1 transition-colors group text-secondary font-bold" data-path="qr-scanner" href="#"><span class="material-symbols-outlined text-[22px] mb-0.5 group-hover:text-secondary">qr_code_scanner</span><span class="font-caption text-caption tracking-tight">สแกน QR</span></a><a class="flex flex-col items-center justify-center min-h-[44px] py-1 text-on-surface-variant transition-colors group" data-path="compliance-audit" href="#"><span class="material-symbols-outlined text-[22px] mb-0.5 group-hover:text-secondary">assignment_turned_in</span><span class="font-caption text-caption tracking-tight">งานพัสดุ</span></a></div></nav></body></html>

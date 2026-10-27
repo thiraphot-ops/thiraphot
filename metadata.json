@@ -1,0 +1,8 @@
+{
+  "name": "HIV LabStock - ระบบบริหารคลังเวชภัณฑ์และน้ำยา",
+  "description": "ระบบบริหารจัดการคลังเวชภัณฑ์และน้ำยาตรวจภูมิคุ้มกันวิทยา (HIV/AIDS) มาตรฐาน ISO 15189 รองรับ FEFO, การเบิกจ่าย, สแกน QR และงานพัสดุราชการ",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
